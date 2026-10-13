@@ -29,6 +29,6 @@ jobs:
         with:
           languages: javascript-typescript
       - name: Analyze
-        uses: github/codeql-action/analyze@e58424170fb0262c8d7ed60a2e84b9bffe205c67
+        uses: github/codeql-action/analyze@eb94de7c5cfc51dc10fff26d52210eb23a589b0e
         with:
           category: /language:javascript-typescript
